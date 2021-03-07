@@ -1,0 +1,30 @@
+{
+  "name": "@art-of-coding/lockfile",
+  "version": "0.0.1-alpha",
+  "description": "Small lock file utility",
+  "main": "./dist/index.js",
+  "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+  "homepage": "http://github.com/Art-of-Coding/lockfile",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Art-of-Coding/lockfile.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "lock",
+    "file",
+    "lockfile"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mkdirp": "^1.0.1"
+  },
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  }
+}
